@@ -12,6 +12,13 @@ public class Main {
         Cat cat3 = new Cat("ttt", "red");
         System.out.println(cat3.getAge());
 
+        Cat cat4 = new Cat("iii", "uu");
+        Dog dog1 = new Dog("dog", "coldog");
+        Animal dog2= new Dog("dog2", "coldog2");
+
+        cat4.voice();
+        dog2.voice();
+        dog1.voice();
 
 //        стек и куча
 //        в стек кидаются примитивы, ссылок на объекты heap

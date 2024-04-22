@@ -5,21 +5,20 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Cat {
-    final String name;
-    String color;
-    int age = 1;
+public class Cat extends Animal{
+
 
     Cat(String name, String color){
-        this.name = name;
-        this.color = color;
+        super(name, color);
     }
     Cat(String name, String color, int age) {
-        this(name, color);
-        this.age = age;
+        super(name, color, age);
     }
 
-    void voice(){
-        System.out.println(name + " мяукнул");
+    @Override
+    void voice() {
+        System.out.println(getName() + " мяукнул");
     }
+
+
 }
