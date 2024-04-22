@@ -17,7 +17,7 @@ public class Cat extends Animal{
 
     @Override
     void voice() {
-        System.out.println(getName() + " мяукнул");
+        System.out.println(name+ " мяукнул");
     }
 
 

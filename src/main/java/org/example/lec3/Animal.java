@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Animal {
+abstract class Animal {
     protected String name;
     protected String color;
     protected int age = 1;
@@ -20,6 +20,6 @@ public class Animal {
         this.age = age;
     }
 
-    void voice(){}
+    abstract void voice();
 
 }

@@ -20,6 +20,11 @@ public class Main {
         dog2.voice();
         dog1.voice();
 
+
+
+        System.out.println("cat4.getColor() = " + cat4.getColor());
+        System.out.println("dog2.getAge() = " + dog2.getAge());
+
 //        стек и куча
 //        в стек кидаются примитивы, ссылок на объекты heap
 //        LIFO
